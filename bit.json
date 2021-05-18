@@ -1,17 +1,14 @@
 {
-    "env": {
-        "compiler": "bit.envs/compilers/vue@0.1.13"
-    },
-    "componentsDefaultDirectory": "src/components/{name}",
-    "packageManager": "npm",
-    "dependencies": {
-        "less": "^4.1.1",
-        "less-loader": "7.3.0"
-    },
-    "resolveModules": {
-        "modulesDirectories": ["src"],
-        "aliases": {
-            "@": "src"
-        }
+  "env": {
+    "compiler": "bit.envs/compilers/vue@0.1.13"
+  },
+  "componentsDefaultDirectory": "src/components/{name}",
+  "packageManager": "npm",
+  "overrides": {
+    "styles/*": {
+      "env": {
+        "compiler": "-"
+      }
     }
+  }
 }

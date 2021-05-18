@@ -24,28 +24,18 @@
         "origin": "AUTHORED",
         "exported": false
     },
-    "xeonicca.trial/styles@0.0.2": {
+    "styles": {
         "files": [
-            {
-                "relativePath": "src/components/styles/index.js",
-                "test": false,
-                "name": "index.js"
-            },
-            {
-                "relativePath": "src/components/styles/main.less",
-                "test": false,
-                "name": "main.less"
-            },
             {
                 "relativePath": "src/components/styles/variable.less",
                 "test": false,
                 "name": "variable.less"
             }
         ],
-        "mainFile": "src/components/styles/index.js",
+        "mainFile": "src/components/styles/variable.less",
         "trackDir": "src/components/styles",
         "origin": "AUTHORED",
-        "exported": true
+        "exported": false
     },
     "version": "14.8.8"
 }
